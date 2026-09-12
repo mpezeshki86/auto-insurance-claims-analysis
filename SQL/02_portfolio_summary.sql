@@ -262,14 +262,14 @@ ORDER BY region;
 
 -- FINDING:
 -- Claim frequency varies meaningfully across geographic regions.
--- R94 has the highest observed claim frequency at 0.1399,
--- followed by R21 at 0.1327 and R11 at 0.1317.
--- R41 has the lowest observed claim frequency at 0.0753.
--- Some of the highest-frequency regions, including R94 and R21,
--- have relatively limited exposure, so their results should be
--- interpreted more cautiously.
--- R11 also shows a high claim frequency and is supported by
--- substantially greater exposure.
+-- Corse has the highest observed claim frequency at 0.1399,
+-- followed by Champagne-Ardenne at 0.1327 and Ile-de-France at 0.1317.
+-- Auvergne has the lowest observed claim frequency at 0.0814.
+-- Some high-frequency regions, such as Corse and Champagne-Ardenne,
+-- have relatively limited exposure, so their observed frequencies
+-- should be interpreted more cautiously.
+-- Ile-de-France also has a high observed claim frequency and is
+-- supported by substantially greater exposure.
 -- Region appears to be a potentially important geographic
 -- risk-segmentation variable.
 
