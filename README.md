@@ -79,13 +79,21 @@ auto-insurance-claims-analysis/
 │   ├── 02_portfolio_summary.sql
 │   └── 03_risk_segmentation.sql
 │
-├── notebook/
-│   ├── 01_exploratory_analysis.ipynb
-│   ├── 02_claim_frequency_model.ipynb
-│   └── 03_business_insights.ipynb
-│
-└── docs/
+└── notebook/
+    ├── 01_exploratory_analysis.ipynb
+    ├── 02_claim_frequency_model.ipynb
+    └── 03_business_insights.ipynb
 ```
+
+### File Descriptions
+
+- **00_create_tables.sql** — Creates the PostgreSQL table used for the insurance dataset.
+- **01_data_validation.sql** — Performs data-quality and validation checks before analysis.
+- **02_portfolio_summary.sql** — Calculates overall portfolio statistics and exposure-based claim frequency.
+- **03_risk_segmentation.sql** — Examines claim frequency across individual and combined risk characteristics.
+- **01_exploratory_analysis.ipynb** — Performs Python-based exploratory analysis and visualization.
+- **02_claim_frequency_model.ipynb** — Develops, diagnoses, and validates the claim-frequency GLM.
+- **03_business_insights.ipynb** — Summarizes the actuarial and business implications of the analysis.
 
 ## Dataset
 
