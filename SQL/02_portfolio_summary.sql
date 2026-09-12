@@ -273,11 +273,9 @@ ORDER BY region;
 -- Region appears to be a potentially important geographic
 -- risk-segmentation variable.
 
--- ============================================================
 
 
-
--- STEP 3 SUMMARY
+-- SUMMARY
 -- ============================================================
 -- Overall portfolio claim frequency is approximately 0.1007.
 --
