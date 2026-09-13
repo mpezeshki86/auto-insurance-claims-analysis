@@ -97,7 +97,7 @@ auto-insurance-claims-analysis/
 
 ## Dataset
 
-This project uses the freMTPL2 French Motor Third-Party Liability motor insurance dataset. The version of the frequency dataset used in this project contains 678,013 policy records and includes claim counts, policy exposure, driver characteristics, vehicle characteristics, BonusMalus, and geographic information. Dataset versions available from different sources may contain slightly different record counts; all analyses and results in this project are based on the 678,013-record version used here.
+This project uses the freMTPL2 French Motor Third-Party Liability motor insurance dataset, obtained from Kaggle. The CSV file used in this analysis contains 678,013 policy records and includes claim counts, policy exposure, driver characteristics, vehicle characteristics, BonusMalus, and geographic information. The record count reflects the specific Kaggle CSV version used for this project. Dataset versions available from different sources may contain slightly different record counts; all analyses and results in this project are based on the 678,013-record version used here.
 
 Key variables used in the analysis include:
 
